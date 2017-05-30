@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trivia Game</title>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>Trivia Game</header>
+		
+			<div id="start-screen">
+				<h1>Do you know what groups of different animals are called? Let's find out!</h1>
+				<button id="start-button">Start the Fun</button>
+			</div>
+		
+			<div id="game-screen">
+				<div id="timer"> Time Remaining: 60 Seconds</div>
+				<form id="trivia">
+					<h1>Identify what the name for a group of each animal is called</h1>
+					<p class="question">Cats</p>
+						<input class="answer" type="radio" name="one" value="25"/>Clowder
+						<input class="answer" type="radio" name="one" value="0"/>Pack
+						<input class="answer" type="radio" name="one" value="0"/>Hoard
+						<input class="answer" type="radio" name="one" value="0"/>Pack<br />
+					<p class="question">Monkeys</p>
+						<input class="answer" type="radio" name="two" value="0"/>Pod
+						<input class="answer" type="radio" name="two" value="0"/>Gang
+						<input class="answer" type="radio" name="two" value="25"/>Troop
+						<input class="answer" type="radio" name="two" value="0"/>School<br />	
+					<p class="question">Eagles</p>
+						<input class="answer" type="radio" name="three" value="0"/>Flock
+						<input class="answer" type="radio" name="three" value="0"/>Cast
+						<input class="answer" type="radio" name="three" value="0"/>Flight
+						<input class="answer" type="radio" name="three" value="25"/>Convocation<br />
+					<p class="question">Crows</p>
+						<input class="answer" type="radio" name="four" value="25"/>Murder
+						<input class="answer" type="radio" name="four" value="0"/>Mob
+						<input class="answer" type="radio" name="four" value="0"/>Chattering
+						<input class="answer" type="radio" name="four" value="0"/>Array<br />
+					<p class="question">Porcupines</p>
+						<input class="answer" type="radio" name="five" value="0"/>Congregation
+						<input class="answer" type="radio" name="five" value="25"/>Prickle
+						<input class="answer" type="radio" name="five" value="0"/>Drift
+						<input class="answer" type="radio" name="five" value="0"/>Company<br />
+					<p class="question">Rhinoceroses</p>
+						<input class="answer" type="radio" name="six" value="0"/>Mob
+						<input class="answer" type="radio" name="six" value="0"/>Ambush
+						<input class="answer" type="radio" name="six" value="0"/>Pack
+						<input class="answer" type="radio" name="six" value="25"/>Crash<br />
+					<p class="question">Alligators</p>
+						<input class="answer" type="radio" name="seven" value="25"/>Congregation
+						<input class="answer" type="radio" name="seven" value="0"/>Congress
+						<input class="answer" type="radio" name="seven" value="0"/>Swarm
+						<input class="answer" type="radio" name="seven" value="0"/>Pod<br />
+					<p class="question">Owls</p>
+						<input class="answer" type="radio" name="eight" value="0"/>Company
+						<input class="answer" type="radio" name="eight" value="0"/>Nest
+						<input class="answer" type="radio" name="eight" value="25"/>Parliament
+						<input class="answer" type="radio" name="eight" value="0"/>Congress<br />
+					<p class="question">Butterflies</p>
+						<input class="answer" type="radio" name="nine" value="0"/>Cacophany
+						<input class="answer" type="radio" name="nine" value="25"/>Kaleidoscope
+						<input class="answer" type="radio" name="nine" value="0"/>Army
+						<input class="answer" type="radio" name="nine" value="0"/>Cluster<br />
+					<p class="question">Sharks</p>
+						<input class="answer" type="radio" name="ten" value="25"/>Shiver
+						<input class="answer" type="radio" name="ten" value="0"/>Fever
+						<input class="answer" type="radio" name="ten" value="0"/>Swarm
+						<input class="answer" type="radio" name="ten" value="0"/>Mess<br />
+					<input id="submit-button" type="submit" value="All Finished" />
+				</form>										
+			</div>	
+
+			<div id="score-screen">
+				<p>Game Over!</p>
+				<p id=correct-answers>Correct Answers: </p>
+				<p id=wrong-answers>Incorrect Answers: </p>
+				<p id=unanswered>Unanswered: </p>
+			</div>
+		</div>
+	</body>
+</html>

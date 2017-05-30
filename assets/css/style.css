@@ -1,0 +1,50 @@
+body {
+	width: 100%;
+	background: url(../images/birds.jpg);
+}
+
+header {
+	font-family: 'Aclonica', sans-serif;
+	font-size: 35px;
+	color: antiquewhite;
+}
+
+.wrapper {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+
+#start-screen {
+	background-color: magenta;
+	color: midnightblue;
+	/*height: 100px;*/
+	display: none;
+	padding: 15px;
+}
+
+#start-button {
+	background-color: #1affa3;
+	color: midnightblue;
+	font-weight: bold;
+	font-size: 32px;
+	width: 50%;
+	margin: 15px;
+}
+
+#game-screen {
+	background-color: midnightblue;
+	color: white;
+	display: none;
+	padding: 15px;
+}
+
+.question {
+	font-size: 24px;
+}
+
+#score-screen {
+	background-color: black;
+	color: #ffffff;
+	display: none;
+}
