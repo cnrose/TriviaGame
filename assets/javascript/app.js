@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var correct = 0;
 	var incorrect = 0;
 	var unanswered = 0;
-	var seconds = 60;
+	var seconds = 45;
 	var intervalId;
 
 	//change to the trivia game on start button click
@@ -14,6 +14,7 @@ $(document).ready(function(){
 		$("#game-screen").show();
 		var pageTimeout = setTimeout(myInterval(), 500);
 	});
+
 
 	//timer function
 	function myTimer() {
@@ -80,7 +81,7 @@ $(document).ready(function(){
 
 		for (var i = 0; i < answerArray.length; i++) {
 			if (answerArray[i] === 25) {
-				correct++	
+				correct++;	
 			}
 			else if (answerArray[i] === 0) {
 				incorrect++;
@@ -106,6 +107,7 @@ $(document).ready(function(){
 		$("#score-screen").show();
 		
 	});	
+
 
 
 
